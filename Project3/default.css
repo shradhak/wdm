@@ -1,0 +1,43 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+.row-eq-height { display: -webkit-box;
+  display: -webkit-flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+    flex-grow: 1;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+  
+     margin-right: auto;
+
+   -webkit-align-content: flex-end;
+   align-content: flex-end;
+}
+
+.allworks{
+	 display: inline-block;
+   
+    margin-right: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+   
+   text-align: center;
+    
+}
+
+.cost{
+  color:red;
+}
+
+.modal-body{
+  text-align: center;
+  margin-left: 5px;
+}
