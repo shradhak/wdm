@@ -1,0 +1,1 @@
+base url - http://localhost/project5/CodeIgniter/
