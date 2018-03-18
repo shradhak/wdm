@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<!-- 
+    Student Name:
+-->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="webmash.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTejBnYZxaAa8V4H1PUhceU7W7qnuBqd4&callback=initMap" type="text/javascript"></script>
+  
+    <style type="text/css">
+
+    body{
+      background-color:skyblue;
+    }
+
+    #map{
+          width:600px;
+          height:500px;
+        
+    }
+
+    #clear{
+          text-align: center;
+          padding: 14px 40px;
+          background-color: gray;
+          font-size: 20px;
+      
+    }
+
+    #clr{
+          position:relative;
+          margin-top: 100px;
+          text-align: center;
+      
+
+    }
+
+    .block{
+          display: inline-block;
+          vertical-align:top;
+
+    }
+
+    #output{
+         float: right;
+         
+    }
+    
+    table{
+        background-color: white;
+        position: relative;
+    }
+    
+    table,tr,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+
+
+  </style>
+
+</head>
+
+  <body >
+    <div id="map" class="block"></div>
+     <div id="output" class="block">
+    
+        <table id="table">
+          <caption id="cap"><strong>History Log</strong></caption>
+        </table>
+      </div>
+   
+   <div id="clr">
+        <input type="button"  id="clear" value="Clear History Log" />
+   </div>
+  </body>
+</html>
